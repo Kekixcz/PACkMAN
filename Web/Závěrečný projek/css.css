@@ -1,0 +1,179 @@
+body {
+	background-color: black;
+  background-image: url(pm.jpg);
+  background-size: 99%;
+}
+#ps {
+  display: block;
+  color: white;
+  margin: auto;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 150px;                    
+  padding-top: 70px;
+}
+.pj {
+   font-family: 'sw', sans-serif; 
+}
+.pd {
+   font-family: 'Snap ITC', sans-serif; 
+   padding: 0;
+}
+@font-face {
+    font-family: 'SnapITC';
+    src: url('fonts/snap.TTF') format('TTF'),
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sw';
+    src: url('fonts/sw.TTF') format('TTF'),
+    font-weight: normal;
+    font-style: normal;
+}
+.back {
+  display: block;
+  color: white;
+  margin: auto;
+  text-align: left;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  margin-top: 30px;                    
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 10px;
+  height: 380px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 10px;
+}
+.back2 {
+  display: block;
+  color: white;
+  margin: auto;
+  text-align: left;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  margin-top: 30px;                    
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 10px;
+  height: 2050px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 10px;
+}
+div {
+  margin: auto;
+  text-align: center;
+}
+.back3 {
+  display: block;
+  color: white;
+  margin: auto;
+  text-align: left;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  margin-top: 30px;                    
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 10px;
+  height: 280px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 10px;
+ } 
+ .back4 {
+  display: block;
+  color: white;
+  margin: auto;
+  text-align: left;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  margin-top: 30px;                    
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 10px;
+  height: 210px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 10px;
+}
+.orange {
+background-color: orange;
+}
+.pink {
+background-color: pink;
+}
+.red {
+background-color: red;
+}
+.green {
+background-color: green;
+}
+.pinkk {
+  color: pink;
+}
+.redd {
+  color: red;
+}
+.greenn {
+  color: green;
+}
+.head4 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  margin:   auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.li4 {
+  display: inline-block;
+  border-radius: 200px;
+  margin: 5px;
+  color:  white;
+  padding:  20px 1px;
+
+}
+.li4 a {
+  text-align: center;
+  text-decoration: none;
+  padding:  20px;
+}
+.li4 a {
+  border-radius: 200px;
+  margin:   5px;
+  color:  white;
+}
+.orange a:hover {
+  background-color: orange;
+}
+.pink a:hover {
+  background-color: pink;
+}
+.red a:hover {
+  background-color: red;
+}
+.green a:hover {
+  background-color: green;
+}
+.middle {
+  text-align: centr;
+  margin: auto;
+  font-size: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
