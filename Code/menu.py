@@ -11,7 +11,7 @@ while True:
     print("--- HLAVNÍ MENU ---")
     print("1. Nová hra")
     print("2. Nastavení")
-    print("3. ukončit menu")
+    print("3. Odejít")
     print("4. Náš web")
     
     volba = input("Vyber volbu číslem (1(Nová hra)/2(Nastavení)/3(Ukončit menu)/4(Náš web)): ")
@@ -94,22 +94,24 @@ while True:
                     print(" Grafika nastavena na Vysoká")
                 else:
                     print(" Neplatná volba!")
-                                # ZPĚT
+            
+            # ZPĚT
             elif nas_volba == "3":
                 print("Vracíte se na hlavní menu...")
                 nastaveni_menu = False
-# ===== UKONČIT HRU =====
+    # ===== UKONČIT HRU =====
     elif volba == "3":
         jiste = input("Opravdu chceš odejít? (ano/ne): ")
         if jiste == "ano":
             print("Konec hry! Děkuji za hraní!")
             break
-            #NÁŠ WEB
+
+    # ===== NÁŠ WEB =====
     elif volba == "4":
         print("--- Náš web ---")
         web_volba = input("Vyber akci číslem (1(Zkopírovat odkaz)/2(Zpět)) ")
         if web_volba == "1":
-              print("Odkaz byl zkopírován")
+            print("Odkaz byl zkopírován")
         elif web_volba == "2":
             print("Vítej zpět na hlavím menu")
         else:
@@ -118,3 +120,6 @@ while True:
         print(" Neplatná volba! Vyber 1, 2, 3 nebo 4.")
     
     
+
+
+#Výběr 4 - Náš web nefungoval, po asi 1h úprav jsem došel k závěru, že byla chyba v odsazení jednoho printu... asi to rozbiju :D Kód je nyný plně funkčí a ještě trochu více přehledny
