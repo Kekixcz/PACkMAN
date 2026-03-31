@@ -3,14 +3,19 @@ while True: #Místo true i>=0. Návaznost na odečet času v countdown.py, pro n
     if pohyb == "q" or pohyb == "Q":
         print("Ukončeno")
         break
-    elif pohyb == "w" or pohyb == "W": #Po stisknutí klávesy W jde postava nahoru
+    elif pohyb == "w" or pohyb == "W":
+        #Postava jde nahoru
         print("Pohyb nahoru")
-    elif pohyb == "a" or pohyb == "A": #Po stisknutí klávesy A jde postava doleva
+    elif pohyb == "a" or pohyb == "A":
+        #Postava jde doleva
         print("Pohyb doleva")
-    elif pohyb == "s" or pohyb == "S": #Po stisknutí klávesy S jde postava dolů
+    elif pohyb == "s" or pohyb == "S":
+        #Postava jde dolů
         print("Pohyb dolů")
-    elif pohyb == "d" or pohyb == "D": #Po stisknutí klávesy D jde postava doprava
+    elif pohyb == "d" or pohyb == "D":
+        #Postava jde doprava
         print("Pohyb doprava") 
     
     else:
-        print("Neplatný směr pohybu!") #Pokud hráč stiskne jinou klávesu než již zmíněné nic se nestane
+        #Pokud hráč stiskne jinou klávesu než již zmíněné nic se nestane
+        print("Neplatný směr pohybu!")
