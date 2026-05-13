@@ -132,7 +132,7 @@ class Hrac:
         self.jmeno = jmeno
         self.skore = 0
         self.hp    = 100
-        self.killskore = 0
+        self.killskore = 0 
 
     def __str__(self):
         return f"packman {self.jmeno} | HP: {self.hp} | skore: {self.skore} | kill skore: {self.killskore}"
