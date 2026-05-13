@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ======================================
 #     class pro Hráče, Duchy, body
 # ======================================
@@ -7,7 +6,7 @@ class Hrac:
         self.jmeno = jmeno
         self.skore = 0
         self.hp    = 100
-        self.killskore = 0
+        self.killskore = 0 
 
     def __str__(self):
         return f"packman {self.jmeno} | HP: {self.hp} | skore: {self.skore} | kill skore: {self.killskore}"
@@ -123,7 +122,7 @@ hrac = Hrac("packman", 5)
 duch1 = Duch("duch1", 1, 1)
 duch2 = Duch("duch1", 1, 1)
 duch3 = Duch("duch1", 1, 1)
-=======
+
 # ======================================
 #     class pro Hráče, Duchy, body
 # ======================================
@@ -138,7 +137,7 @@ class Hrac:
         return f"packman {self.jmeno} | HP: {self.hp} | skore: {self.skore} | kill skore: {self.killskore}"
  #hráč = vygenerovány životy,jmeno, skore, kill skore(počet zabití ducha)
 
- class Duch: 
+class Duch: 
     def __init__(self, jmeno, hp, demage):
         self.jmeno = jmeno
         self.hp    = hp
@@ -248,4 +247,4 @@ hrac = Hrac("packman", 5)
 duch1 = Duch("duch1", 1, 1)
 duch2 = Duch("duch1", 1, 1)
 duch3 = Duch("duch1", 1, 1)
->>>>>>> 6a3392f (hlava code)
+
