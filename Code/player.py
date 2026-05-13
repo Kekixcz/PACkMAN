@@ -149,7 +149,9 @@ class Hrac:
         if hrac.hp > 1 : 
             hrac.hp -= 1
             print(f"nyní máš{hrac.hp}")
-    
+        else: pass
+        #dodělat co když nemá životy
+
 #duch = vygenerovány životy, jmeno
 class Bod: 
     def __init__(self, hp, jmeno):
